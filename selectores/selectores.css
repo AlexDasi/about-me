@@ -1,0 +1,100 @@
+body
+{
+background-color: lightblue;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+p
+{
+font-size: 16pt;
+font-family: 'Roboto', sans-serif;
+}
+
+a
+{
+    color: rgb(89, 0, 255);
+}
+a:visited
+{
+  color: darkslateblue
+}
+.special
+{
+    color:red
+}
+
+.special:visited
+{
+    color: green;
+    
+}
+a:focus.special
+{
+    border: 2px dotted black;
+    background-color:silver
+}
+a:hover
+{
+    color: springgreen;
+}
+
+/*inputs*/
+
+input[type="text"]:focus{
+    box-shadow: 0 0 5px 5px darkslategray;
+}
+input:focus{
+    box-shadow: 0 0 5px 5px rgb(9, 219, 219);
+}
+
+a[href="https://www.google.com"]:hover
+{
+    color: rgb(255, 199, 45);
+}
+
+input:checked ~ p
+{
+    color: red;
+}
+p{
+    color: slateblue;
+    margin: 30px;
+}
+span{
+    color: seagreen;
+}
+
+p span
+{
+    color: yellow;
+}
+.foo{
+    color: tomato;
+}
+span.foo
+{color: snow;}
+
+.prueba .foo {
+    color: tan;
+}
+
+p.prueba span.foo {
+    color: rgb(97, 255, 92);
+}
+
+
+
+#fuck{
+    color: black;
+}
+
+span#fuck{
+    color: rgb(229, 255, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+.section1{
+    background-color: lightgray;
+}

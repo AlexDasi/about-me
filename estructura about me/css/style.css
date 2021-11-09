@@ -1,0 +1,40 @@
+body{
+    font-family: merryweather;
+    padding: 30px;
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+    margin: 0 auto;
+    min-height: 100vh;
+    max-width: 850px;
+  }
+  .logo
+  {
+    height: 150px;
+    border-radius: 80px;
+  }
+  .logo--header{
+    margin-left: auto;
+  }
+  a
+  {
+    margin: 0 10 0 0 px;
+    }
+  header{
+    padding: 20px;
+    background-color:green;
+  }
+  nav{
+    padding: 20px;
+    background-color:yellow;
+  }
+  main{
+    flex: 1;
+    padding: 20px;
+    background-color:purple;
+  }
+  footer{
+    padding: 20px;
+    background-color:aquamarine;
+  }
+  

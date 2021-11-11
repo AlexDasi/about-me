@@ -1,0 +1,75 @@
+section{
+    padding-top: 80px;
+    font-family: 'Rubik', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+    
+}
+
+.baloo{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.green{
+    color: #35CC61;
+}
+.button{
+    background-color: #35CC61;
+    border: none;
+    max-width: 150px;
+    min-width: 100px;
+    min-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+form {
+    background-color: #EBFAEF;
+    padding: 32px;
+    max-width: 320px;  
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    margin-bottom: 20px;
+    border-color: lightgray;
+    border-radius: 2px;
+    border-width: 1px;
+    padding: 20px;
+    border-style: solid;
+}
+h1{
+    font-size: 36px;
+    line-height: 1;
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    padding: 30px;
+}
+
+@media (min-width:600px) {
+body{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+form.column{
+    min-width: 50%;
+    
+}
+    
+}

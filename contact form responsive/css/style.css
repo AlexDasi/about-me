@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
 section{
     padding-top: 80px;
     font-family: 'Rubik', sans-serif;
@@ -60,7 +63,7 @@ li{
 }
 
 @media (min-width:600px) {
-body{
+main{
     display: flex;
     width: 100%;
     flex-direction: row;

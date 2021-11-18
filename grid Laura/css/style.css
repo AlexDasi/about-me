@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+  .grid {
+    display: flex;
+    background-color: pink;
+    flex-wrap: wrap;
+    border: 1px solid white;
+  }
+  .grid__cell-100 {
+    background-color: pink;
+    flex: 0 0 100%;
+    border: 1px solid white;
+    padding: 2%;
+  }
+  .grid__cell-50 {
+    background-color: pink;
+    flex: 0 0 50%;
+    border: 1px solid white;
+    padding: 2%;
+  }
+  .grid__cell-25 {
+    background-color: rgb(221, 77, 99);
+    flex: 0 0 25%;
+    border: 1px solid white;
+    padding: 2%;
+    color: white;
+  }
+  @media only screen and (max-width: 600px) {
+    .grid__cell-50,
+    .grid__cell-25 {
+        flex: 0 0 100%;
+    }
+}
+@media only screen and (min-width: 601px) {
+    .grid__cell-25 {
+        flex: 0 0 50%;
+    }
+}
+img {
+    max-width: 100%;
+}

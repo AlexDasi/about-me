@@ -1,0 +1,19 @@
+//-----> $SPACE Variables
+
+$unit: 8px;
+$space: $unit * 2;
+$space--medium: $space * 1.5;
+$padding: $unit;
+$pagemaxwidth: 1024px;
+
+
+
+//-----> $COLORS
+$purple: #d75893;
+$green : olive;
+$grey: #d1d1d1;
+$grey-dark: darken($grey, 60);
+
+$main-color: $green;
+$gradient: linear-gradient(41deg, rgba(41,118,155,1) 0%, rgba(41,155,135,1) 100%),
+;

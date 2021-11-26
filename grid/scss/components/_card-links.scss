@@ -1,0 +1,9 @@
+.card-link{
+    display: block;
+    padding: $space--medium;
+    background-color: black 10%;
+
+    &:visited{
+        background-color: black 10%;
+    }
+}

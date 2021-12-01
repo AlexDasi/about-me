@@ -2,17 +2,38 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  @include max-width(2048px, 80%);
+  padding: 0;
+  padding-top: 3 * $unit;
+  justify-content: center;
+  align-items: center;
+  max-width: 522px;
+  margin-left: auto;
+  margin-right: auto;
 
   &__cell {
-    padding: $space;
     @include remove-border(12px);
 
     &--50 {
-      @include gridcell(50%, $unit);
+      background-color: rgba(0, 0, 0, 0.1);
+      margin: 1.5 * $unit;
+      height: 150px;
+      min-width: 150px;
+      max-width: 150px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      flex: 0 0 calc(50% - 24px);
+      justify-content: center;
+      align-items: center;
+      border-radius: $font;
+      
+      
+      
     }
     &--10 {
       flex: 0 0 10%;
     }
   }
 }
+
+

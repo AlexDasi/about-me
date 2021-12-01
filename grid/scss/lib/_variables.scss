@@ -5,6 +5,7 @@ $space: $unit * 2;
 $space--medium: $space * 1.5;
 $padding: $unit;
 $pagemaxwidth: 1024px;
+$font: 1.5*$unit;
 
 
 
@@ -17,3 +18,9 @@ $grey-dark: darken($grey, 60);
 $main-color: $green;
 $gradient: linear-gradient(41deg, rgba(41,118,155,1) 0%, rgba(41,155,135,1) 100%),
 ;
+
+
+//-----> $FONTS
+$font-primary: 'Roboto', sans-serif;
+$bold: 700;
+$font-small: 12px;
